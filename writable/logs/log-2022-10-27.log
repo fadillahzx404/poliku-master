@@ -1,0 +1,7 @@
+CRITICAL - 2022-10-27 05:43:52 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Teknisi.php(133): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Teknisi->update_app()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

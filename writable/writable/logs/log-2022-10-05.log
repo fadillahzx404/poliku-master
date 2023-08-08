@@ -1,0 +1,7 @@
+CRITICAL - 2022-10-05 09:03:46 --> Undefined variable: data
+#0 /var/www/html/kognitif/app/Controllers/Data.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

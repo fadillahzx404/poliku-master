@@ -1,0 +1,6 @@
+CRITICAL - 2022-11-10 13:46:23 --> Call to a member function setCellValue() on int
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->report()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

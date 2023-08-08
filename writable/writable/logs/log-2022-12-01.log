@@ -1,0 +1,150 @@
+ERROR - 2022-12-01 10:50:46 --> Unknown column 'id_aset' in 'where clause'
+CRITICAL - 2022-12-01 10:50:46 --> Call to a member function getRowArray() on bool
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-01 10:50:49 --> Unknown column 'id_aset' in 'where clause'
+CRITICAL - 2022-12-01 10:50:49 --> Call to a member function getRowArray() on bool
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-01 10:51:36 --> Unknown column 'id_aset' in 'where clause'
+CRITICAL - 2022-12-01 10:51:36 --> Unknown column 'id_aset' in 'where clause'
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1134): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 10:51:55 --> Unknown column 'id_aset' in 'where clause'
+CRITICAL - 2022-12-01 10:51:55 --> Unknown column 'id_aset' in 'where clause'
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1134): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 10:51:56 --> Unknown column 'id_aset' in 'where clause'
+CRITICAL - 2022-12-01 10:51:56 --> Unknown column 'id_aset' in 'where clause'
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1134): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 10:51:57 --> Unknown column 'id_aset' in 'where clause'
+CRITICAL - 2022-12-01 10:51:57 --> Unknown column 'id_aset' in 'where clause'
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1134): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 10:51:58 --> Undefined index: subject
+#0 /var/www/html/ticket/app/Views/admin/edit_aset.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1135): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 10:51:58 --> Undefined index: subject
+#0 /var/www/html/ticket/app/Views/admin/edit_aset.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1135): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 10:51:58 --> Undefined index: subject
+#0 /var/www/html/ticket/app/Views/admin/edit_aset.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1135): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 10:52:45 --> Undefined index: subject
+#0 /var/www/html/ticket/app/Views/admin/edit_aset.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1135): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 10:53:22 --> Undefined variable: lokasi
+#0 /var/www/html/ticket/app/Views/admin/edit_aset.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1135): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 10:53:24 --> Undefined variable: lokasi
+#0 /var/www/html/ticket/app/Views/admin/edit_aset.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1135): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:06:24 --> Undefined index: nik
+#0 /var/www/html/ticket/app/Views/admin/edit_aset.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1141): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:12:42 --> Undefined index: nik
+#0 /var/www/html/ticket/app/Views/admin/edit_aset.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1141): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->edit_aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

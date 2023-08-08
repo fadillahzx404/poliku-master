@@ -1,0 +1,473 @@
+CRITICAL - 2022-11-09 08:07:25 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 08:14:53 --> Undefined variable: new
+#0 /var/www/html/ticket/app/Views/admin/rep_tiket.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(889): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:17:11 --> Trying to get property 'tahun' of non-object
+#0 /var/www/html/ticket/app/Views/admin/rep_tiket.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(888): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:17:52 --> Trying to get property 'tahun' of non-object
+#0 /var/www/html/ticket/app/Views/admin/rep_tiket.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(888): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:17:53 --> Trying to get property 'tahun' of non-object
+#0 /var/www/html/ticket/app/Views/admin/rep_tiket.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(888): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:18:11 --> Undefined variable: Jbulan
+#0 /var/www/html/ticket/app/Views/admin/rep_tiket.php(82): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(888): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:18:12 --> Undefined variable: Jbulan
+#0 /var/www/html/ticket/app/Views/admin/rep_tiket.php(82): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(888): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:18:13 --> Undefined variable: Jbulan
+#0 /var/www/html/ticket/app/Views/admin/rep_tiket.php(82): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(888): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:49:59 --> Undefined variable: department
+#0 /var/www/html/ticket/app/Views/admin/rep_tiket.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(888): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 09:37:09 --> Invalid file: admin/annual_report.php
+#0 /var/www/html/ticket/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/ticket/app/Controllers/Admin.php(899): view()
+#3 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#4 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-09 09:48:00 --> Undefined variable: JTahun
+#0 /var/www/html/ticket/app/Views/admin/annual_report.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(899): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 09:55:35 --> Trying to get property 'bulan' of non-object
+#0 /var/www/html/ticket/app/Views/admin/annual_report.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(908): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 09:55:43 --> Trying to get property 'bulan' of non-object
+#0 /var/www/html/ticket/app/Views/admin/annual_report.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(908): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 09:55:52 --> Trying to get property 'bulan' of non-object
+#0 /var/www/html/ticket/app/Views/admin/annual_report.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(908): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 09:57:03 --> Trying to get property 'bulan' of non-object
+#0 /var/www/html/ticket/app/Views/admin/annual_report.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(908): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 09:57:33 --> Trying to get property 'bulan' of non-object
+#0 /var/www/html/ticket/app/Views/admin/annual_report.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(908): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 10:25:59 --> Trying to get property 'id_prioritas' of non-object
+#0 /var/www/html/ticket/app/Views/admin/annual_report.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(920): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 10:26:06 --> Trying to get property 'id_prioritas' of non-object
+#0 /var/www/html/ticket/app/Views/admin/annual_report.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(920): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 10:26:16 --> Trying to get property 'id_prioritas' of non-object
+#0 /var/www/html/ticket/app/Views/admin/annual_report.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(920): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 10:50:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = '2022'
+ORDER BY ' at line 1
+CRITICAL - 2022-11-09 10:50:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = '2022'
+ORDER BY ' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(933): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 10:51:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = '2022'
+ORDER BY ' at line 1
+CRITICAL - 2022-11-09 10:51:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = '2022'
+ORDER BY ' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(933): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 10:52:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+ORDER BY month(tangg' at line 1
+CRITICAL - 2022-11-09 10:52:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+ORDER BY month(tangg' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(933): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 10:53:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+ORDER BY month(tangg' at line 1
+CRITICAL - 2022-11-09 10:53:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+ORDER BY month(tangg' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(933): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 10:54:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = '2022'
+ORDER BY ' at line 1
+CRITICAL - 2022-11-09 10:54:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = '2022'
+ORDER BY ' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(933): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 13:50:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = '2022'
+ORDER BY ' at line 1
+CRITICAL - 2022-11-09 13:50:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = '2022'
+ORDER BY ' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(933): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 13:52:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = ''
+ORDER BY mont' at line 1
+CRITICAL - 2022-11-09 13:52:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = ''
+ORDER BY mont' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(925): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 13:52:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = ''
+ORDER BY mont' at line 1
+CRITICAL - 2022-11-09 13:52:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = ''
+ORDER BY mont' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(925): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 13:52:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = ''
+ORDER BY mont' at line 1
+CRITICAL - 2022-11-09 13:52:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y/ %M) as bulan
+FROM `ticket`
+WHERE date_format(tanggal, %Y) = ''
+ORDER BY mont' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(925): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 14:31:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = ''
+AND monthna' at line 1
+CRITICAL - 2022-11-09 14:31:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = ''
+AND monthna' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(952): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->lap_bulanan()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 14:31:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = ''
+AND monthna' at line 1
+CRITICAL - 2022-11-09 14:31:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = ''
+AND monthna' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(952): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->lap_bulanan()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 14:31:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+AND mon' at line 1
+CRITICAL - 2022-11-09 14:31:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+AND mon' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(952): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->lap_bulanan()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 14:31:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+AND mon' at line 1
+CRITICAL - 2022-11-09 14:31:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+AND mon' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(952): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->lap_bulanan()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 14:31:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+AND mon' at line 1
+CRITICAL - 2022-11-09 14:31:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+AND mon' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(952): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->lap_bulanan()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 14:31:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+AND mon' at line 1
+CRITICAL - 2022-11-09 14:31:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' tanggal), count(*) as jumlah
+FROM `ticket`
+WHERE year(tanggal) = '2022'
+AND mon' at line 1
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(952): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->lap_bulanan()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

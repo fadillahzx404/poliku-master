@@ -1,0 +1,45 @@
+.page-home {
+  .title-head {
+    h1 {
+      font-weight: 600;
+    }
+    @include media-breakpoint-up(lg) {
+      padding-top: 100px;
+      h1 {
+        font-size: 38px;
+      }
+    }
+  }
+  @include media-breakpoint-up(md) {
+    .title-h3 {
+      margin-top: 70px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .title-h3 {
+      margin-top: 50px;
+    }
+  }
+  .title-h3 {
+    font-weight: 600;
+  }
+  .content-2 {
+    .layanan-title {
+      background-color: #ffd95a;
+      padding: 8px;
+    }
+  }
+  .content-3 {
+    .tentang-kami {
+      background-color: #ffd95a;
+    }
+    .information {
+      @include media-breakpoint-up(xl) {
+        padding-top: 100px;
+      }
+      @include media-breakpoint-down(md) {
+        padding-top: 100px;
+      }
+    }
+  }
+}

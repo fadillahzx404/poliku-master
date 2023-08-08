@@ -1,0 +1,269 @@
+CRITICAL - 2022-10-03 08:12:11 --> Invalid file: data/edit_siswa.php
+#0 /var/www/html/kognitif/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/kognitif/app/Controllers/Data.php(62): view()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->edit_siswa()
+#4 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 08:34:43 --> Undefined variable: siswa
+#0 /var/www/html/kognitif/app/Views/data/guru.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(77): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->guru()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 08:39:21 --> Invalid file: data/tambah_guru.php
+#0 /var/www/html/kognitif/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/kognitif/app/Controllers/Data.php(98): view()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->tambah_guru()
+#4 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 08:53:07 --> Invalid file: data/edit_guru.php
+#0 /var/www/html/kognitif/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/kognitif/app/Controllers/Data.php(118): view()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->edit_guru()
+#4 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 08:55:21 --> Undefined variable: siswa
+#0 /var/www/html/kognitif/app/Views/data/edit_guru.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(118): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->edit_guru()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 09:11:42 --> Undefined index: Tahun_Ajaran
+#0 /var/www/html/kognitif/app/Views/data/siswa.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(133): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->akun_siswa()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 09:11:48 --> Undefined index: Tahun_Ajaran
+#0 /var/www/html/kognitif/app/Views/data/siswa.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(133): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->akun_siswa()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 09:11:54 --> Undefined index: Tahun_Ajaran
+#0 /var/www/html/kognitif/app/Views/data/siswa.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(133): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->akun_siswa()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 09:11:55 --> Undefined index: Tahun_Ajaran
+#0 /var/www/html/kognitif/app/Views/data/siswa.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(133): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->akun_siswa()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 09:11:56 --> Undefined index: Tahun_Ajaran
+#0 /var/www/html/kognitif/app/Views/data/siswa.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(133): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->akun_siswa()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 09:12:29 --> Invalid file: data/akun_siswa.php
+#0 /var/www/html/kognitif/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/kognitif/app/Controllers/Data.php(133): view()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->akun_siswa()
+#4 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 09:33:59 --> Trying to access array offset on value of type null
+#0 /var/www/html/kognitif/app/Controllers/Data.php(145): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->tambah_akun_siswa()
+#2 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 09:34:22 --> Trying to access array offset on value of type null
+#0 /var/www/html/kognitif/app/Controllers/Data.php(145): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->tambah_akun_siswa()
+#2 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 09:34:29 --> Trying to access array offset on value of type null
+#0 /var/www/html/kognitif/app/Controllers/Data.php(145): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->tambah_akun_siswa()
+#2 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 09:38:47 --> Undefined index: username
+#0 /var/www/html/kognitif/app/Views/data/akun_siswa.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(133): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->akun_siswa()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 20:46:32 --> Invalid file: data/edit_akun_siswa.php
+#0 /var/www/html/kognitif/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/kognitif/app/Controllers/Data.php(167): view()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->edit_akun_siswa()
+#4 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 20:51:25 --> Too few arguments to function App\Controllers\Data::edit_akun_siswa(), 0 passed in /var/www/html/kognitif/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->edit_akun_siswa()
+#1 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-10-03 20:55:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`null` = '', `Passwords is` `null` = ''
+WHERE `Id_Siswa` = '2'' at line 1
+CRITICAL - 2022-10-03 20:55:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`null` = '', `Passwords is` `null` = ''
+WHERE `Id_Siswa` = '2'' at line 1
+#0 /var/www/html/kognitif/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/kognitif/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/kognitif/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/kognitif/system/Database/BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(177): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->hapus_akun_siswa()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 21:36:03 --> Invalid file: data/akun_guru.php
+#0 /var/www/html/kognitif/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/kognitif/app/Controllers/Data.php(185): view()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->akun_guru()
+#4 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 21:40:20 --> Invalid file: data/akun_guru.php
+#0 /var/www/html/kognitif/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/kognitif/app/Controllers/Data.php(185): view()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->akun_guru()
+#4 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 21:40:39 --> Undefined index: Id_Siswa
+#0 /var/www/html/kognitif/app/Views/data/akun_guru.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(185): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->akun_guru()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 21:41:44 --> Invalid file: data/tambah_akun_guru.php
+#0 /var/www/html/kognitif/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/kognitif/app/Controllers/Data.php(202): view()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->tambah_akun_guru()
+#4 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 21:43:48 --> Undefined variable: gur
+#0 /var/www/html/kognitif/app/Views/data/tambah_akun_guru.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(202): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->tambah_akun_guru()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 21:51:33 --> Trying to access array offset on value of type null
+#0 /var/www/html/kognitif/app/Controllers/Data.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->tambah_akun_guru()
+#2 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 21:51:55 --> Trying to access array offset on value of type null
+#0 /var/www/html/kognitif/app/Controllers/Data.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->tambah_akun_guru()
+#2 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 21:53:45 --> Invalid file: data/edit_akun_guru.php
+#0 /var/www/html/kognitif/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/kognitif/app/Controllers/Data.php(219): view()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->edit_akun_guru()
+#4 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 21:57:55 --> Undefined index: ID_guru
+#0 /var/www/html/kognitif/app/Views/data/edit_akun_guru.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(219): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->edit_akun_guru()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-03 22:27:58 --> Table 'rakit.penilaian' doesn't exist
+CRITICAL - 2022-10-03 22:27:58 --> Table 'rakit.penilaian' doesn't exist
+#0 /var/www/html/kognitif/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/kognitif/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/kognitif/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/kognitif/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(236): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->penilaian()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

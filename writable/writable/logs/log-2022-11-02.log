@@ -1,0 +1,109 @@
+CRITICAL - 2022-11-02 08:11:13 --> syntax error, unexpected '}', expecting ';'
+#0 /var/www/html/ticket/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/ticket/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/ticket/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-02 08:55:13 --> Undefined variable: my_tiket
+#0 /var/www/html/ticket/app/Views/admin/new_tiket.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(620): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->new_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-02 09:53:43 --> Invalid file: admin/tolak_tiket.php
+#0 /var/www/html/ticket/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/ticket/app/Controllers/Admin.php(639): view()
+#3 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->tolak_tiket()
+#4 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-02 09:54:46 --> Undefined variable: kategori
+#0 /var/www/html/ticket/app/Views/admin/tolak_tiket.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(639): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->tolak_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-02 09:54:57 --> Undefined variable: lokasi
+#0 /var/www/html/ticket/app/Views/admin/tolak_tiket.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(639): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->tolak_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-02 11:25:21 --> Invalid file: admin/setujui_tiket.php
+#0 /var/www/html/ticket/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/ticket/app/Controllers/Admin.php(682): view()
+#3 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->setujui_tiket()
+#4 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-02 13:41:06 --> Undefined index: id_teknisi
+#0 /var/www/html/ticket/app/Views/admin/setujui_tiket.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(687): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->setujui_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-02 13:43:10 --> Undefined index: username
+#0 /var/www/html/ticket/app/Views/admin/setujui_tiket.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(688): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->setujui_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-02 13:43:22 --> Undefined index: nama
+#0 /var/www/html/ticket/app/Views/admin/setujui_tiket.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(688): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->setujui_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-02 14:16:39 --> Call to a member function getClientExtension() on null
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Teknisi->save_update_app()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-11-02 14:40:36 --> Column 'id_user' cannot be null
+CRITICAL - 2022-11-02 14:40:36 --> Column 'id_user' cannot be null
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(641): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->tolak_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,379 @@
+ERROR - 2022-11-13 20:53:10 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 20:53:10 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 20:54:54 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 20:54:54 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 20:54:55 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 20:54:55 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 20:56:25 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 20:56:25 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-13 20:57:47 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Admin.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-13 20:58:03 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 20:58:03 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-13 20:59:43 --> Undefined variable: all
+#0 /var/www/html/ticket/app/Views/admin/dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(67): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:09 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:09 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:10 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:10 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:29 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:29 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:30 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:30 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:32 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:32 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:32 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:32 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:33 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:33 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:35 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:35 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:36 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:36 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:49 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:49 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:50 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:50 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:00:51 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:00:51 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:01:26 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:01:26 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:01:27 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:01:27 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.user.id_user'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:04:46 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:04:46 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:04:47 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:04:47 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:04:48 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:04:48 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-13 21:05:07 --> Undefined variable: new_tiket
+#0 /var/www/html/ticket/app/Views/admin/dashboard.php(174): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(67): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-13 21:05:18 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-13 21:05:18 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'helpdesk.ticket.tanggal'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-13 21:05:52 --> Undefined variable: new_tiket
+#0 /var/www/html/ticket/app/Views/admin/dashboard.php(174): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(68): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-13 21:18:10 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Admin.php(1066): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->aset()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-13 21:23:07 --> Table 'helpdesk.aset' doesn't exist
+CRITICAL - 2022-11-13 21:23:07 --> Table 'helpdesk.aset' doesn't exist
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1070): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-13 21:23:31 --> Undefined variable: aset
+#0 /var/www/html/ticket/app/Views/admin/aset.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1071): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-13 21:23:49 --> Undefined index: nama_prioritas
+#0 /var/www/html/ticket/app/Views/admin/aset.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1071): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-13 21:25:48 --> Undefined variable: row
+#0 /var/www/html/ticket/app/Views/admin/aset.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1071): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-13 21:28:03 --> Undefined index: id_prioritas
+#0 /var/www/html/ticket/app/Views/admin/aset.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(1071): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->aset()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

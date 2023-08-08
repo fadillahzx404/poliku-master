@@ -1,0 +1,13 @@
+// Import Bootstrap 4 Library
+@import "../vendor/twbs/bootstrap/scss/bootstrap.scss";
+
+@import "global";
+@import "fonts";
+@import "navbar";
+@import "home";
+@import "login";
+@import "register";
+@import "sidebar";
+
+@import "pages/dashboard";
+@import "component/card_dashboard";

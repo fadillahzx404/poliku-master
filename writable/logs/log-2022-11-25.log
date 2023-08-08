@@ -1,0 +1,903 @@
+ERROR - 2022-11-25 09:57:54 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'helpdesk.ticket.tanggal' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-25 09:57:54 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'helpdesk.ticket.tanggal' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(889): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-25 10:00:37 --> Cannot call constructor
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:01:15 --> Cannot call constructor
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:02:23 --> Cannot call constructor
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:02:33 --> Cannot call constructor
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:02:34 --> Cannot call constructor
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:02:36 --> Cannot call constructor
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:02:38 --> Cannot call constructor
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:02:40 --> Cannot call constructor
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:07:37 --> Trying to access array offset on value of type null
+#0 /var/www/html/ticket/app/Views/user/profil.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/View/View.php(214): include('/var/www/html/t...')
+#2 /var/www/html/ticket/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ticket/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/ticket/app/Controllers/User.php(154): view()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\User->profil()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-25 10:13:28 --> Interface 'App\Controllers\FilterInterface' not found
+#0 /var/www/html/ticket/system/Router/Router.php(491): include_once()
+#1 /var/www/html/ticket/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/html/ticket/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/ticket/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-25 10:19:23 --> Interface 'App\Controllers\FilterInterface' not found
+#0 /var/www/html/ticket/system/Router/Router.php(491): include_once()
+#1 /var/www/html/ticket/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/html/ticket/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/ticket/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-25 10:19:27 --> Interface 'App\Controllers\FilterInterface' not found
+#0 /var/www/html/ticket/system/Router/Router.php(491): include_once()
+#1 /var/www/html/ticket/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/html/ticket/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/ticket/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-25 10:20:01 --> Could not check compatibility between App\Controllers\Admin::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\LoggerInterface is not available
+#0 /var/www/html/ticket/app/Controllers/Admin.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/Router/Router.php(491): include_once('/var/www/html/t...')
+#2 /var/www/html/ticket/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#3 /var/www/html/ticket/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#4 /var/www/html/ticket/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 10:28:04 --> Class 'App\Controllers\KapanewonModel' not found
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:29:59 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 10:30:01 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 10:31:19 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:31:33 --> Function name must be a string
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:31:34 --> Function name must be a string
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:32:34 --> Undefined property: App\Controllers\Admin::$session
+#0 /var/www/html/ticket/app/Controllers/Admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#2 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 10:32:36 --> Undefined property: App\Controllers\Admin::$session
+#0 /var/www/html/ticket/app/Controllers/Admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#2 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 10:32:51 --> Undefined property: App\Controllers\Admin::$session
+#0 /var/www/html/ticket/app/Controllers/Admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#2 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 10:33:36 --> Too few arguments to function CodeIgniter\Session\Session::set(), 0 passed in /var/www/html/ticket/app/Controllers/Admin.php on line 17 and at least 1 expected
+#0 /var/www/html/ticket/app/Controllers/Admin.php(17): CodeIgniter\Session\Session->set()
+#1 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#2 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 10:34:06 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:34:07 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:34:21 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:34:33 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:34:34 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#1 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 10:43:24 --> Undefined property: App\Controllers\Admin::$db
+#0 /var/www/html/ticket/app/Controllers/Admin.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 10:43:25 --> Undefined property: App\Controllers\Admin::$db
+#0 /var/www/html/ticket/app/Controllers/Admin.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 10:43:26 --> Undefined property: App\Controllers\Admin::$db
+#0 /var/www/html/ticket/app/Controllers/Admin.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 10:47:44 --> Undefined variable: request
+#0 /var/www/html/ticket/app/Controllers/Admin.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#2 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 10:47:45 --> Undefined variable: request
+#0 /var/www/html/ticket/app/Controllers/Admin.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#2 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-25 10:50:55 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'helpdesk.ticket.tanggal' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-25 10:50:55 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'helpdesk.ticket.tanggal' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(897): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-25 11:03:11 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:03:44 --> Class 'App\Filter\LoginFilter' not found
+#0 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#1 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-11-25 11:08:09 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:08 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:17 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:18 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:19 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:19 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:19 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:20 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:20 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:20 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:20 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:20 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:21 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:21 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:21 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:21 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:41 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:41 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:42 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:42 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:42 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:43 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:43 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:43 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:43 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:43 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:11:43 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:12:06 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:12:07 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:12:18 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:20 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:21 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:21 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:23 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:31 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:31 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:32 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:32 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:32 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:32 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:33 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:33 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:33 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:33 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:33 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:34 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:34 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:12:34 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ticket/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ticket/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ticket/app/Filters/LoginFilter.php(15): redirect()
+#3 /var/www/html/ticket/system/Filters/Filters.php(169): App\Filters\LoginFilter->before()
+#4 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-25 11:14:17 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:14:20 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 11:58:16 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 12:50:58 --> Undefined property: App\Controllers\Admin::$db
+#0 /var/www/html/ticket/app/Controllers/Admin.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(779): App\Controllers\Admin->__construct()
+#2 /var/www/html/ticket/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-25 12:52:06 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'helpdesk.ticket.tanggal' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-25 12:52:06 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'helpdesk.ticket.tanggal' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(897): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->rep_tiket()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-25 13:31:15 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:31:16 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:42:41 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:46 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:47 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:47 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:48 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:48 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:49 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:49 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:49 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:50 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:50 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:53 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:54 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:55 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:55 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:42:55 --> Class App\Filters\LoginFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-25 13:44:11 --> Class 'App\Filters\LoginFilter' not found
+#0 /var/www/html/ticket/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#1 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-11-25 13:49:45 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:46 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:54 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:55 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:56 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:56 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:57 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:57 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:57 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:57 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:57 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:58 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:58 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:58 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:58 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:49:58 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:51:34 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 13:51:58 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 14:00:08 --> syntax error, unexpected ''after'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+#0 /var/www/html/ticket/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/ticket/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/ticket/system/Config/Factories.php(136): class_exists()
+#5 /var/www/html/ticket/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#6 /var/www/html/ticket/system/Common.php(197): CodeIgniter\Config\Factories::__callStatic()
+#7 /var/www/html/ticket/system/Config/Services.php(258): config()
+#8 /var/www/html/ticket/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#9 /var/www/html/ticket/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#10 /var/www/html/ticket/system/Config/Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance()
+#11 /var/www/html/ticket/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 /var/www/html/ticket/system/CodeIgniter.php(361): CodeIgniter\Config\BaseService::__callStatic()
+#13 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#14 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-11-25 14:00:29 --> Undefined variable: data
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 14:05:13 --> Argument 2 passed to view() must be of the type array, null given, called in /var/www/html/ticket/app/Controllers/Data.php on line 28
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): view()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-25 14:05:14 --> Argument 2 passed to view() must be of the type array, null given, called in /var/www/html/ticket/app/Controllers/Data.php on line 28
+#0 /var/www/html/ticket/app/Controllers/Data.php(28): view()
+#1 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Data->index()
+#2 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-25 17:59:07 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'helpdesk.ticket.tanggal' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-11-25 17:59:07 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

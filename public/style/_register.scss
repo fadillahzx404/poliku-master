@@ -1,0 +1,23 @@
+.page-content {
+  @include media-breakpoint-down(lg) {
+    .image-register {
+      display: none;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    .image-register {
+      margin-top: 150px;
+    }
+  }
+  .register-form {
+    .btn-login {
+      @include button-variant(#d8d8dd, transparent);
+      color: #bbb;
+      --bs-btn-hover-bg: #2d2727;
+    }
+    .btn-signup {
+      @include button-variant(#ffd95a, #ffd95a);
+      --bs-btn-hover-bg: #eab308;
+    }
+  }
+}

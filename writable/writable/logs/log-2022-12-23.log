@@ -1,0 +1,28 @@
+ERROR - 2022-12-23 14:23:49 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'helpdesk.ticket.tanggal' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-12-23 14:23:49 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-23 14:23:58 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'helpdesk.ticket.tanggal' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-12-23 14:23:58 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-23 14:23:59 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'helpdesk.ticket.tanggal' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-12-23 14:23:59 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-23 14:24:21 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'helpdesk.ticket.tanggal' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-12-23 14:24:21 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->annual_report()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

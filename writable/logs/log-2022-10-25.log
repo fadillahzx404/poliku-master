@@ -1,0 +1,31 @@
+CRITICAL - 2022-10-25 21:23:31 --> Call to undefined function App\Controllers\random_string()
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\User->buat_tiket()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-25 21:24:16 --> Call to undefined function App\Controllers\random()
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\User->buat_tiket()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-25 21:28:12 --> Call to undefined function App\Controllers\random_string()
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\User->buat_tiket()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-25 21:29:08 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /var/www/html/ticket/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/ticket/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/ticket/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-25 21:34:37 --> Call to undefined function App\Controllers\random_string()
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\User->buat_tiket()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

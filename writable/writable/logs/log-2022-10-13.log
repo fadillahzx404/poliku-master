@@ -1,0 +1,36 @@
+ERROR - 2022-10-13 09:25:57 --> Table 'helpdesk.department' doesn't exist
+CRITICAL - 2022-10-13 09:25:57 --> Table 'helpdesk.department' doesn't exist
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->department()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-13 09:26:17 --> Table 'helpdesk.departmen' doesn't exist
+CRITICAL - 2022-10-13 09:26:17 --> Table 'helpdesk.departmen' doesn't exist
+#0 /var/www/html/ticket/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/ticket/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ticket/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ticket/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ticket/app/Controllers/Admin.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->department()
+#6 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-13 15:38:17 --> Too few arguments to function App\Controllers\Admin::del_department(), 0 passed in /var/www/html/ticket/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->del_department()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-13 15:38:50 --> Too few arguments to function App\Controllers\Admin::del_department(), 0 passed in /var/www/html/ticket/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/html/ticket/system/CodeIgniter.php(802): App\Controllers\Admin->del_department()
+#1 /var/www/html/ticket/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ticket/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ticket/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

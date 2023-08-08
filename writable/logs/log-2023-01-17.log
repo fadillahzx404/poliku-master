@@ -1,0 +1,935 @@
+CRITICAL - 2023-01-17 08:28:39 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Views/rekam_medis/periksa.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(103): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->periksa()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 08:28:41 --> Undefined index: id_rekam_medis
+#0 /var/www/html/poliku/app/Views/rekam_medis/data_periksa.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(157): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->data_periksa()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-17 08:41:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isnull
+AND `id_pasien` = '7'' at line 3
+CRITICAL - 2023-01-17 08:41:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isnull
+AND `id_pasien` = '7'' at line 3
+#0 /var/www/html/poliku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/poliku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/poliku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/poliku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(155): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->data_periksa()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-17 08:41:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isnull
+AND `id_pasien` = '7'' at line 3
+CRITICAL - 2023-01-17 08:41:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isnull
+AND `id_pasien` = '7'' at line 3
+#0 /var/www/html/poliku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/poliku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/poliku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/poliku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(155): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->data_periksa()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 08:46:18 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 08:56:59 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 08:57:20 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 08:57:48 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 08:57:49 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 08:57:51 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 08:58:04 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 08:58:12 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 08:58:17 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 08:58:57 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 08:59:04 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 08:59:26 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:00:46 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:01:10 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:01:21 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:01:46 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:01:53 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:09:48 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:10:12 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:11:34 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:12:06 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:14:16 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:14:33 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:15:19 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:16:23 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:19:16 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:19:46 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:20:10 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:20:17 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:20:18 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:20:18 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:20:19 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:22:09 --> Undefined variable: id_periksa
+#0 /var/www/html/poliku/app/Views/rekam_medis/tindakan.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(192): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 09:22:10 --> Undefined variable: id_periksa
+#0 /var/www/html/poliku/app/Views/rekam_medis/tindakan.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(192): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 09:22:30 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:26:39 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:27:28 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:27:51 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:28:24 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:28:24 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:28:26 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:29:01 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:29:24 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:29:25 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:30:12 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:30:40 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-17 09:30:45 --> Unknown column 'id_tindakan' in 'field list'
+CRITICAL - 2023-01-17 09:30:45 --> Unknown column 'id_tindakan' in 'field list'
+#0 /var/www/html/poliku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/poliku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/poliku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/poliku/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(203): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan_add()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 09:31:06 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:31:14 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:31:15 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:31:21 --> Undefined index: nama
+#0 /var/www/html/poliku/app/Views/rekam_medis/tindakan.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(192): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 09:57:00 --> Undefined index: id_tindakan
+#0 /var/www/html/poliku/app/Views/rekam_medis/tindakan.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(193): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 09:57:34 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:00:29 --> Undefined index: id_obat
+#0 /var/www/html/poliku/app/Views/rekam_medis/tindakan.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(194): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 10:00:37 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-17 10:01:57 --> Table 'poliku.periksa_obat' doesn't exist
+CRITICAL - 2023-01-17 10:01:57 --> Table 'poliku.periksa_obat' doesn't exist
+#0 /var/www/html/poliku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/poliku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/poliku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/poliku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(194): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-17 10:03:20 --> Unknown column 'obat.id_tarif' in 'on clause'
+CRITICAL - 2023-01-17 10:03:20 --> Unknown column 'obat.id_tarif' in 'on clause'
+#0 /var/www/html/poliku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/poliku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/poliku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/poliku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(194): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 10:03:35 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:05:25 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:05:35 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:07:08 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:07:40 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:07:56 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:08:03 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-17 10:08:27 --> Column 'obat' cannot be null
+CRITICAL - 2023-01-17 10:08:27 --> Column 'obat' cannot be null
+#0 /var/www/html/poliku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/poliku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/poliku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/poliku/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(222): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->obat_add()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 10:08:55 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:09:08 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:09:17 --> Undefined index: nama_obat
+#0 /var/www/html/poliku/app/Views/rekam_medis/tindakan.php(137): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(197): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 10:12:14 --> Undefined index: tarif
+#0 /var/www/html/poliku/app/Views/rekam_medis/tindakan.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(197): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 10:12:28 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:15:52 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:15:55 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:15:56 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:17:09 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:17:23 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:17:48 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:17:56 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:18:40 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:18:42 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:18:42 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:18:43 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:18:50 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:20:38 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:20:45 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:24:56 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:25:25 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:25:29 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:25:36 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:25:53 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:37:06 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:37:33 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:38:55 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:39:42 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Views/rekam_medis/periksa.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(103): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->periksa()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 10:39:48 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:39:52 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Views/rekam_medis/periksa.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(103): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->periksa()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 10:40:46 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:45:31 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:45:37 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:45:42 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 10:47:03 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Views/rekam_medis/periksa.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(103): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->periksa()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 10:47:29 --> Trying to access array offset on value of type null
+#0 /var/www/html/poliku/app/Controllers/Rekam_medis.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->tindakan()
+#2 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 14:07:40 --> Invalid file: rekam_medis/rekam_akhir.php
+#0 /var/www/html/poliku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/poliku/app/Controllers/Rekam_medis.php(257): view()
+#3 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->rekam_akhir()
+#4 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-17 14:11:49 --> Invalid file: rekam_medis/incoice.php
+#0 /var/www/html/poliku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/poliku/app/Controllers/Rekam_medis.php(262): view()
+#3 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->invoice()
+#4 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-17 14:31:16 --> Invalid file: rekam_medis/rekam_akhir.php
+#0 /var/www/html/poliku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/poliku/app/Controllers/Rekam_medis.php(257): view()
+#3 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->rekam_akhir()
+#4 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-17 14:31:19 --> Invalid file: rekam_medis/rekam_akhir.php
+#0 /var/www/html/poliku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/poliku/app/Controllers/Rekam_medis.php(257): view()
+#3 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->rekam_akhir()
+#4 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-17 14:32:03 --> Undefined variable: tindakan
+#0 /var/www/html/poliku/app/Views/rekam_medis/rekam_akhir.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(257): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->rekam_akhir()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 14:32:05 --> Undefined variable: tindakan
+#0 /var/www/html/poliku/app/Views/rekam_medis/rekam_akhir.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(257): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->rekam_akhir()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 21:02:39 --> Undefined index: id_rekam_medis
+#0 /var/www/html/poliku/app/Views/rekam_medis/data_periksa.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/poliku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/poliku/app/Controllers/Rekam_medis.php(162): view()
+#5 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->data_periksa()
+#6 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-17 21:25:58 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/poliku/app/Controllers/Rekam_medis.php(162): view()
+#3 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->data_periksa()
+#4 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-17 21:26:24 --> Call to undefined function perawatan()
+#0 /var/www/html/poliku/system/View/View.php(214): include()
+#1 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#3 /var/www/html/poliku/app/Controllers/Rekam_medis.php(162): view()
+#4 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->data_periksa()
+#5 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-17 21:26:27 --> Call to undefined function perawatan()
+#0 /var/www/html/poliku/system/View/View.php(214): include()
+#1 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#3 /var/www/html/poliku/app/Controllers/Rekam_medis.php(162): view()
+#4 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->data_periksa()
+#5 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-17 21:26:48 --> Call to undefined function perawatan()
+#0 /var/www/html/poliku/system/View/View.php(214): include()
+#1 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#3 /var/www/html/poliku/app/Controllers/Rekam_medis.php(162): view()
+#4 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->data_periksa()
+#5 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-17 21:26:49 --> Call to undefined function perawatan()
+#0 /var/www/html/poliku/system/View/View.php(214): include()
+#1 /var/www/html/poliku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/poliku/system/Common.php(1092): CodeIgniter\View\View->render()
+#3 /var/www/html/poliku/app/Controllers/Rekam_medis.php(162): view()
+#4 /var/www/html/poliku/system/CodeIgniter.php(802): App\Controllers\Rekam_medis->data_periksa()
+#5 /var/www/html/poliku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/poliku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/poliku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

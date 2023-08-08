@@ -1,0 +1,21 @@
+.page-content {
+  .login-content {
+    @include media-breakpoint-down(md) {
+      .image-login {
+        display: none;
+      }
+    }
+    .login-form {
+      place-self: center;
+      .btn-login {
+        @include button-variant(#ffd95a, #ffd95a);
+        --bs-btn-hover-bg: #eab308;
+      }
+      .btn-signup {
+        @include button-variant(#d8d8dd, transparent);
+        color: #bbb;
+        --bs-btn-hover-bg: #2d2727;
+      }
+    }
+  }
+}

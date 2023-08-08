@@ -1,0 +1,105 @@
+ERROR - 2022-10-04 10:19:42 --> Column 'ID_Siswa' in where clause is ambiguous
+CRITICAL - 2022-10-04 10:19:42 --> Column 'ID_Siswa' in where clause is ambiguous
+#0 /var/www/html/kognitif/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/kognitif/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/kognitif/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/kognitif/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->penilaian()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-04 10:20:08 --> Column 'ID_Siswa' in where clause is ambiguous
+CRITICAL - 2022-10-04 10:20:08 --> Column 'ID_Siswa' in where clause is ambiguous
+#0 /var/www/html/kognitif/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/kognitif/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/kognitif/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/kognitif/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->penilaian()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-04 10:38:14 --> Invalid file: data/biodata_guru.php
+#0 /var/www/html/kognitif/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/kognitif/app/Controllers/Data.php(293): view()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->biodata_guru()
+#4 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-04 13:16:23 --> Invalid file: data/konsul.php
+#0 /var/www/html/kognitif/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/kognitif/app/Controllers/Data.php(271): view()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->konsul()
+#4 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-04 13:24:51 --> Undefined variable: siswa
+#0 /var/www/html/kognitif/app/Views/data/konsul.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(276): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->konsul()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-04 13:32:39 --> Undefined variable: siswa
+#0 /var/www/html/kognitif/app/Views/data/tambah_konsul.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(297): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->tambah_konsul()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-04 13:33:03 --> Undefined index: Id_Siswa
+#0 /var/www/html/kognitif/app/Views/data/tambah_konsul.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(297): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->tambah_konsul()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-04 13:34:29 --> Column 'ID_Siswa' cannot be null
+CRITICAL - 2022-10-04 13:34:29 --> Column 'ID_Siswa' cannot be null
+#0 /var/www/html/kognitif/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/kognitif/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/kognitif/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/kognitif/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(260): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->tambah_penilaian()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-04 13:46:33 --> Undefined index: ID_Konsul
+#0 /var/www/html/kognitif/app/Views/data/edit_konsul.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kognitif/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kognitif/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kognitif/app/Controllers/Data.php(310): view()
+#5 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->edit_konsul()
+#6 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-04 13:47:20 --> Undefined variable: konsul
+#0 /var/www/html/kognitif/app/Controllers/Data.php(299): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kognitif/system/CodeIgniter.php(802): App\Controllers\Data->edit_konsul()
+#2 /var/www/html/kognitif/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kognitif/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kognitif/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,544 @@
+CRITICAL - 2023-05-30 20:12:05 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 175)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 20:16:19 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 175)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 20:22:24 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 175)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 21:27:21 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 175)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 21:27:28 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 175)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 21:29:24 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 175)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 21:29:27 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 175)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 21:30:44 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 175)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 21:33:07 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 175)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 21:36:27 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 175)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 21:42:53 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 175)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 21:46:24 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\laragon\\www\\...', 181)
+#1 C:\laragon\www\poliku-master\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\laragon\www\poliku-master\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\laragon\www\poliku-master\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\laragon\www\poliku-master\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\laragon\www\poliku-master\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\laragon\www\poliku-master\system\CodeIgniter.php(527): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\laragon\www\poliku-master\system\CodeIgniter.php(292): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\laragon\www\poliku-master\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\poliku-master\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-30 15:13:17 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 15:39:29 --> Undefined variable $page
+in APPPATH\Controllers\Home.php on line 9.
+ 1 APPPATH\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\laragon\\www\\poliku-master\\app\\Controllers\\Home.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\poliku-master\\public\\index.php')
+CRITICAL - 2023-05-30 15:49:47 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Config\Routes.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-30 16:17:32 --> Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\poliku-master\\public\\index.php')
+CRITICAL - 2023-05-30 16:17:59 --> Invalid file: "homepages/homepages.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepages/homepages.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('homepages/homepages', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('homepages/homepages')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\poliku-master\\public\\index.php')
+CRITICAL - 2023-05-30 16:18:01 --> Invalid file: "homepages/homepages.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepages/homepages.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('homepages/homepages', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('homepages/homepages')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\poliku-master\\public\\index.php')
+CRITICAL - 2023-05-30 16:18:11 --> Invalid file: "homepages/homepages.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepages/homepages.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('homepages/homepages', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('homepages/homepages')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\poliku-master\\public\\index.php')
+CRITICAL - 2023-05-30 16:19:53 --> Undefined variable $homepage
+in APPPATH\Controllers\Home.php on line 9.
+ 1 APPPATH\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $homepage', 'C:\\laragon\\www\\poliku-master\\app\\Controllers\\Home.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\poliku-master\\public\\index.php')
+CRITICAL - 2023-05-30 18:02:17 --> Undefined variable $his
+in APPPATH\Views\home.php on line 3.
+ 1 APPPATH\Views\home.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $his', 'C:\\laragon\\www\\poliku-master\\app\\Views\\home.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\poliku-master\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(12): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\poliku-master\\public\\index.php')
+CRITICAL - 2023-05-30 18:02:42 --> Invalid file: "layout/template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(12): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\poliku-master\\public\\index.php')
+CRITICAL - 2023-05-30 21:15:56 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:18:05 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:19:06 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:21:08 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:29:06 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:31:43 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Config\Kint.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\poliku-master\\app\\Config\\Kint.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Kint')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Kint')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Kint')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Kint')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 8 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 9 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+10 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:32:23 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Config\Kint.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\poliku-master\\app\\Config\\Kint.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Kint')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Kint')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Kint')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Kint')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 8 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 9 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+10 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:32:33 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:35:06 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:36:44 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:37:13 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:40:17 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:43:00 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:43:02 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:43:03 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:43:04 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:43:10 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:46:17 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:46:19 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:46:54 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:50:13 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:50:15 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:50:16 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:51:00 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:51:17 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:55:04 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 21:59:48 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:00:31 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:00:34 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:01:21 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:04:16 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:06:27 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(271): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(236): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(198): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:09:11 --> Access to undeclared static property Kint\Kint::$depth_limit
+in SYSTEMPATH\CodeIgniter.php on line 274.
+ 1 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 2 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:10:07 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:15:48 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:16:52 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:17:11 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:17:36 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:17:55 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:19:10 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:20:49 --> Class "Config\AbstractAbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-30 22:22:19 --> Class "Kint\Renderer\AbstractRenderer" not found
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
