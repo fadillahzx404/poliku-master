@@ -144,7 +144,7 @@ curl_close($curl);
         $invoice = $this->request->getVar('invoice');
         
         if ($this->request->getVar('inlineRadioOptions')) {
-            dd($this->request->getVar());
+            
             $this->periksaModel
                 ->set('id_pembayaran', $this->request->getVar('inlineRadioOptions'))
                 ->where('invoice', $invoice)

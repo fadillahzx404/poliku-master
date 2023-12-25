@@ -103,16 +103,21 @@
 
 
                                         <?php
+                                        $iddok = array();
+                                        $doknem = array();
 
                                         foreach ($items as $item) {
 
                                             if (array_intersect_assoc($result, $item['hari_jam'])) {
 
                                                 $iddok =  $item['id_dokter'];
+                                                
                                                 $doknem =  $item['nama'];
+                                                
+                                                
                                             }
                                         }
-
+                                            
 
                                         ?>
                                         <div class="mb-3 row">

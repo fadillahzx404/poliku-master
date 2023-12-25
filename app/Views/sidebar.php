@@ -34,7 +34,7 @@
               </a>
             </div>
             <ul class="list-group list-group-flush pt-5">
-              <?php if (session('level') == 'Admin') { ?>
+              <?php if (session('level') == 'admin') { ?>
                 <a href="<?= base_url() ?>dashboard" class="list-group-item list-group-item-action <?php if (url_is('dashboard*')) {
                                                                                                       echo 'active';
                                                                                                     } ?>">
@@ -341,6 +341,7 @@
   </script>
 
   <script>
+    $(document).ready(function() {
     if($("input[id='tunai']").is(":checked",true)){
         document.getElementById("tunai-btn").style.display = "block";
         document.getElementById("non-tunai-btn").style.display = "none";
@@ -350,33 +351,33 @@
         document.getElementById("tunai-btn").style.display = "none";
         document.getElementById("non-tunai-btn").style.display = "block";
 
-      }
+      }});
   </script>
 
-
-
-  
-
-<script type="text/javascript">
+  <script type="text/javascript">
     $(document).ready(function() {
       
-        $("input[name='radio']").click(function() {
+        $("input[name='inlineRadioOptions']").click(function() {
             var radioValue1 = $("input[id='tunai']:checked");
             var radioValue2 = $("input[id='non-tunai']:checked");
 
             if (radioValue1) {
-;
-                document.getElementById('metode_id').submit();
 
+                document.getElementById('metode_id').submit();
                 
             }else if(radioValue2){
 
               document.getElementById('metode_id').submit();
             }
+            else{
+              ""
+            }
         });
     });
-    
+   
 </script>
+
+
 
 <script type="text/javascript">
     $(document).ready(function() {
@@ -398,6 +399,11 @@
     });
     
 </script>
+
+
+
+
+
 
 <script type="text/javascript">
     $(document).ready(function() {
