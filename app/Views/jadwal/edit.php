@@ -36,59 +36,59 @@
                                         <h5>Jadwal Anda</h5>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckDefault1" value="monday"  <?php if(isset($j[0])){ if($j[0] == 'monday') {
+                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckDefault1" value="monday"  <?php if(in_array('monday',$j)) {
                                                 echo 'checked';
-                                            }} ?>>
+                                            } ?>>
                                             <label class="form-check-label" for="flexCheckDefault1">
                                                 Senin
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked2" value="tuesday" <?php if(isset($j[1])){ if($j[1] == 'tuesday') {
+                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked2" value="tuesday" <?php if(in_array('tuesday',$j)) {
                                                 echo 'checked';
-                                            }} ?>>
+                                            } ?>>
                                             <label class="form-check-label" for="flexCheckChecked2">
                                                 Selasa
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked3" value="wednesday" <?php if(isset($j[2])){ if($j[2] == 'wednesday') {
+                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked3" value="wednesday" <?php if(in_array('wednesday',$j)) {
                                                 echo 'checked';
-                                            }} ?>>
+                                            } ?>>
                                             <label class="form-check-label" for="flexCheckChecked3">
                                                 Rabu
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked4" value="thursday" <?php if(isset($j[3])){ if($j[3] == 'thursday') {
+                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked4" value="thursday" <?php if(in_array('thursday',$j)) {
                                                 echo 'checked';
-                                            }} ?> >
+                                            }?> >
                                             <label class="form-check-label" for="flexCheckChecked4">
                                                 Kamis
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked5" value="friday" <?php if(isset($j[4])){ if($j[4] == 'friday') {
+                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked5" value="friday" <?php if(in_array('friday',$j)) {
                                                 echo 'checked';
-                                            }} ?>>
+                                            } ?>>
                                             <label class="form-check-label" for="flexCheckChecked5">
                                                 Jumat
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked6" value="saturday" <?php if(isset($j[5])){ if($j[5] == 'saturday') {
+                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked6" value="saturday" <?php if(in_array('saturday',$j)) {
                                                 echo 'checked';
-                                            }} ?>>
+                                            } ?>>
                                             <label class="form-check-label" for="flexCheckChecked6">
                                                 Sabtu
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked7" value="sunday" <?php if(isset($j[6])){ if($j[6] == 'sunday') {
+                                            <input class="form-check-input" type="checkbox" name="check_list[]" id="flexCheckChecked7" value="sunday" <?php if(in_array('sunday', $j)) {
                                                 echo 'checked';
-                                            }} ?>>
+                                            } ?>>
                                             <label class="form-check-label" for="flexCheckChecked7">
-                                                Sabtu
+                                                Minggu
                                             </label>
                                         </div>
 

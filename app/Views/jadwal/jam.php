@@ -35,8 +35,38 @@
                                     <div class="col-md-2">
                                         <h5>Hari Masuk</h5>
 
-                                        <?php foreach ($j as $d) : ?>
-                                            <p class="mt-3"><?= trim($d); ?></p>
+                                        <?php
+                                        $hari_masuk = explode(",", $dokter['jadwal']);
+                                        
+                                            
+                                        
+                                        foreach ($hari_masuk as $d) : 
+                                        ?>
+                                            <p class="mt-3">
+                                                <?php switch ($d) {
+                                                    case 'sunday':
+                                                        $d = str_replace("sunday","Minggu",$d);
+                                                        
+                                                    case 'monday':
+                                                        $d = str_replace("monday","Senin",$d);
+                                                        
+                                                    case 'tuesday':
+                                                        $d = str_replace("tuesday","Selasa",$d);
+                                                        
+                                                    case 'wednesday':
+                                                        $d = str_replace("wednesday","Rabu",$d);
+                                                    case 'thursday':
+                                                        $d = str_replace("thursday","Kamis",$d);
+                                                    case 'friday':
+                                                        $d = str_replace("friday","Jumat",$d);
+                                                    case 'saturday':
+                                                        $d = str_replace("saturday","Sabtu",$d);
+                                                    default:
+                                                        # code...
+                                                        break;
+                                                } ?>
+                                                <?= trim($d); ?>
+                                            </p>
                                         <?php endforeach; ?>
 
 

@@ -89,8 +89,13 @@ class Dokter extends BaseController
     public function jadwal()
     {   
         session();
-        $data['dokter'] = $this->dokterModel->get()->getRowArray();
+        $dokter_id = session()->nama;
+
+        $data['dokter'] = $this->dokterModel->where('nama',$dokter_id )->get()->getRowArray();
         $data['dokteran'] = $this->dokterModel->get()->getResultArray();
+
+    
+
         
         $data_d = $this->dokterModel->get()->getRowArray();
         $data['jadwalan'] = $this->dokterModel->get()->getResultArray();
@@ -121,8 +126,6 @@ class Dokter extends BaseController
             $jj[6] = 'Minggu';
         }
         $data['j'] = $jj;
-
-        
        
 
 
@@ -135,12 +138,16 @@ class Dokter extends BaseController
      $data['d'] = $this->dokterModel->where('id_dokter',$id)->get()->getRowArray();
      $data_d = $this->dokterModel->where('id_dokter',$id)->get()->getRowArray();
      $j = $data_d['jadwal'];
-     $data['dokter'] = $this->dokterModel->get()->getResultArray();
+
+
+     $dokter_nama = session()->nama;
+     
+     $data['dokter'] = $this->dokterModel->where('nama', $dokter_nama)->get()->getRowArray();
 
      $data['j'] = explode(",",$j);
      
 
-
+        
      if ($_POST) {
         $checkbox = $_POST['check_list'];
         $hari = implode(',', $checkbox);
@@ -161,33 +168,35 @@ class Dokter extends BaseController
      $data_d = $this->dokterModel->where('id_dokter',$id)->get()->getRowArray();
      $jam = $data_d['jadwal'];
 
-     $data['dokter'] = $this->dokterModel->get()->getResultArray();
+     $dokter_nama = session()->nama;
+     
+     $data['dokter'] = $this->dokterModel->where('nama', $dokter_nama)->get()->getRowArray();
 
      $data['j'] = explode(",",$jam);
 
-     $data_d = $this->dokterModel->get()->getRowArray();
+     $data_d = $this->dokterModel->where('nama', $dokter_nama)->get()->getRowArray();
         $j = $data_d['jadwal'];
         $jj = explode(",",$j);
-        if(isset($jj[0]) && $jj[0] == 'monday'){
-            $jj[0] = 'Senin';
+        if(in_array('monday',$jj)){
+            str_replace("monday","Senin",$jj);
         }
-        if ($jj[1] == 'tuesday') {
-            $jj[1] = 'Selasa';
+        if (in_array('tuesday',$jj)) {
+            str_replace("tuesday","Selasa",$jj);
         }
-        if ($jj[2] == 'wednesday') {
-            $jj[2] = 'Rabu';
+        if (in_array('wednesday',$jj)) {
+            str_replace("wednesday","Rabu",$jj);
         }
-        if (isset($jj[3]) && $jj[3] == 'thursday') {
-            $jj[3] = 'Kamis';
+        if (in_array('thursday',$jj)) {
+            str_replace("thursday","Kamis",$jj);
         }
-        if (isset($jj[4]) && $jj[4] == 'friday') {
-            $jj[4] = 'Jumat';
+        if (in_array('friday',$jj)) {
+            str_replace("friday","Jumat",$jj);
         }
-        if (isset($jj[5]) && $jj[5] == 'saturday') {
-            $jj[5] = 'Sabtu';
+        if (in_array('saturday',$jj)) {
+            str_replace("saturday","Sabtu",$jj);
         }
-        if (isset($jj[6]) && $jj[6] == 'monday') {
-            $jj[6] = 'Minggu';
+        if (in_array('monday',$jj)) {
+            str_replace("monday","Minggu",$jj);
         }
         $data['j'] = $jj;
 
