@@ -33,8 +33,8 @@ INSERT INTO `booking` (`id_booking`, `id_dokter`, `id_pasien`, `untuk_jam`, `unt
 (18,	NULL,	7,	NULL,	'2023-07-31',	NULL,	NULL,	NULL,	NULL),
 (19,	5,	7,	'13:00:00',	'2023-07-30',	'2023-07-04 00:00:00',	NULL,	NULL,	NULL),
 (20,	NULL,	7,	NULL,	'2023-07-24',	NULL,	NULL,	NULL,	NULL),
-(21,	5,	7,	'12:00:00',	'2023-07-29',	'2023-07-17 00:00:00',	NULL,	NULL,	NULL)
-ON DUPLICATE KEY UPDATE `id_booking` = VALUES(`id_booking`), `id_dokter` = VALUES(`id_dokter`), `id_pasien` = VALUES(`id_pasien`), `untuk_jam` = VALUES(`untuk_jam`), `untuk_tanggal` = VALUES(`untuk_tanggal`), `tanggal_dan_jam_booking` = VALUES(`tanggal_dan_jam_booking`), `jenis_praktik` = VALUES(`jenis_praktik`), `keterangan` = VALUES(`keterangan`), `status` = VALUES(`status`);
+(21,	5,	7,	'12:00:00',	'2023-07-29',	'2023-07-17 00:00:00',	NULL,	NULL,	NULL),
+(22,	NULL,	7,	'11:00:00',	'2023-12-04',	NULL,	NULL,	NULL,	NULL);
 
 DROP TABLE IF EXISTS `data_sampah`;
 CREATE TABLE `data_sampah` (
@@ -105,8 +105,7 @@ INSERT INTO `data_sampah` (`id`, `tinggi`, `tanggal`, `jam`) VALUES
 (57,	86,	'2022-11-24',	'20:31:28'),
 (58,	86,	'2022-11-24',	'20:31:30'),
 (59,	87,	'2022-11-24',	'20:31:33'),
-(60,	87,	'2022-11-24',	'20:31:35')
-ON DUPLICATE KEY UPDATE `id` = VALUES(`id`), `tinggi` = VALUES(`tinggi`), `tanggal` = VALUES(`tanggal`), `jam` = VALUES(`jam`);
+(60,	87,	'2022-11-24',	'20:31:35');
 
 DROP TABLE IF EXISTS `diagnosa`;
 CREATE TABLE `diagnosa` (
@@ -117,8 +116,7 @@ CREATE TABLE `diagnosa` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `diagnosa` (`id_diagnosa`, `keterangan`, `standar`) VALUES
-(1,	'S02.51-Fraktur mahkota gigi tanpa mengenai pulpa',	'Standar Kemenkes')
-ON DUPLICATE KEY UPDATE `id_diagnosa` = VALUES(`id_diagnosa`), `keterangan` = VALUES(`keterangan`), `standar` = VALUES(`standar`);
+(1,	'S02.51-Fraktur mahkota gigi tanpa mengenai pulpa',	'Standar Kemenkes');
 
 DROP TABLE IF EXISTS `dokter`;
 CREATE TABLE `dokter` (
@@ -135,14 +133,14 @@ CREATE TABLE `dokter` (
   `alamat` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `level` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `jadwal` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `jam_masuk` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   PRIMARY KEY (`id_dokter`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci ROW_FORMAT=DYNAMIC;
 
-INSERT INTO `dokter` (`id_dokter`, `nama`, `username`, `password`, `nik`, `tempat_lahir`, `tanggal_lahir`, `jenis_kelamin`, `email`, `telepon`, `alamat`, `level`, `jadwal`) VALUES
-(2,	'Susi',	'susi',	'susi123',	999122555,	'Sleman Barat',	'1997-05-10',	'perempuan',	'susi@example.com',	'0852xxxxxxxx',	'Jatiuwung Raya, Tangerang',	'dokter',	'monday,tuesday,wednesday'),
-(3,	'abc',	'dokter',	'dokter123',	12345,	'pwr',	'2023-01-08',	'laki-laki',	'gmail',	'085',	'jalan',	'dokter',	'thursday,friday'),
-(5,	'ditaa',	'dita',	'dita123',	2147483647,	'Jkt',	'1985-01-12',	'perempuan',	'asdf@gmail.com',	'08473913747',	'Jkt',	'dokter',	'saturday,sunday')
-ON DUPLICATE KEY UPDATE `id_dokter` = VALUES(`id_dokter`), `nama` = VALUES(`nama`), `username` = VALUES(`username`), `password` = VALUES(`password`), `nik` = VALUES(`nik`), `tempat_lahir` = VALUES(`tempat_lahir`), `tanggal_lahir` = VALUES(`tanggal_lahir`), `jenis_kelamin` = VALUES(`jenis_kelamin`), `email` = VALUES(`email`), `telepon` = VALUES(`telepon`), `alamat` = VALUES(`alamat`), `level` = VALUES(`level`), `jadwal` = VALUES(`jadwal`);
+INSERT INTO `dokter` (`id_dokter`, `nama`, `username`, `password`, `nik`, `tempat_lahir`, `tanggal_lahir`, `jenis_kelamin`, `email`, `telepon`, `alamat`, `level`, `jadwal`, `jam_masuk`) VALUES
+(2,	'Susi',	'susi',	'susi123',	999122555,	'Sleman Barat',	'1997-05-10',	'perempuan',	'susi@example.com',	'0852xxxxxxxx',	'Jatiuwung Raya, Tangerang',	'dokter',	'monday,tuesday,wednesday',	'2,2,2'),
+(3,	'abc',	'dokter',	'dokter123',	12345,	'pwr',	'2023-01-08',	'laki-laki',	'gmail',	'085',	'jalan',	'dokter',	'thursday,friday',	NULL),
+(5,	'ditaa',	'dita',	'dita123',	2147483647,	'Jkt',	'1985-01-12',	'perempuan',	'asdf@gmail.com',	'08473913747',	'Jkt',	'dokter',	'saturday,sunday',	NULL);
 
 DROP TABLE IF EXISTS `layanan`;
 CREATE TABLE `layanan` (
@@ -160,8 +158,7 @@ INSERT INTO `layanan` (`id_layanan`, `thumbnail`, `title`, `deskripsi`, `active`
 (4,	'1687853115_4b692432736a81ea9503.jpg',	'bbbb',	'<p>bbbbccc</p>',	1),
 (5,	'1687948714_1ce641c053f9932821a2.jpg',	'cccc',	'<p>ccccc</p>',	2),
 (6,	'1687946085_eb21e4d8d2d099e88242',	'aa',	'<p>aaa</p>',	2),
-(7,	'1687949786_b21ed1de4d7a8c864483.jpg',	'aa',	'<p>bbbbcccaaww</p>',	2)
-ON DUPLICATE KEY UPDATE `id_layanan` = VALUES(`id_layanan`), `thumbnail` = VALUES(`thumbnail`), `title` = VALUES(`title`), `deskripsi` = VALUES(`deskripsi`), `active` = VALUES(`active`);
+(7,	'1687949786_b21ed1de4d7a8c864483.jpg',	'aa',	'<p>bbbbcccaaww</p>',	2);
 
 DROP TABLE IF EXISTS `metode_pembayaran`;
 CREATE TABLE `metode_pembayaran` (
@@ -173,8 +170,7 @@ CREATE TABLE `metode_pembayaran` (
 INSERT INTO `metode_pembayaran` (`id_pembayaran`, `metode_pembayaran`) VALUES
 (1,	'Belum ditentukan'),
 (2,	'Tunai'),
-(3,	'Non-Tunai')
-ON DUPLICATE KEY UPDATE `id_pembayaran` = VALUES(`id_pembayaran`), `metode_pembayaran` = VALUES(`metode_pembayaran`);
+(3,	'Non-Tunai');
 
 DROP TABLE IF EXISTS `obat`;
 CREATE TABLE `obat` (
@@ -187,8 +183,7 @@ CREATE TABLE `obat` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `obat` (`id_obat`, `nama`, `harga`, `stok`, `expired`) VALUES
-(1,	'Cefixime 100',	35000,	100,	'2024-12-16')
-ON DUPLICATE KEY UPDATE `id_obat` = VALUES(`id_obat`), `nama` = VALUES(`nama`), `harga` = VALUES(`harga`), `stok` = VALUES(`stok`), `expired` = VALUES(`expired`);
+(1,	'Cefixime 100',	35000,	100,	'2024-12-16');
 
 DROP TABLE IF EXISTS `pasien`;
 CREATE TABLE `pasien` (
@@ -225,8 +220,7 @@ INSERT INTO `pasien` (`id_pasien`, `nama`, `username`, `password`, `merayakan`, 
 (18,	'raisa',	'rnurim',	'sayaresa',	NULL,	2147483647,	'karyawan',	NULL,	NULL,	NULL,	NULL,	'perempuan',	NULL,	'085677777777',	'poris',	NULL,	NULL),
 (19,	'raisa',	'rnurin7',	'rsaRSA7',	NULL,	2147483647,	'karyawan',	NULL,	NULL,	NULL,	NULL,	'perempuan',	NULL,	'085677777777',	'poris',	NULL,	NULL),
 (20,	'Rina',	'rina',	'123rin',	NULL,	0,	'Askdk',	NULL,	NULL,	NULL,	NULL,	'perempuan',	NULL,	'0987',	'Jlnsjja',	NULL,	NULL),
-(21,	'Farras',	'fadillahzx',	'12345678',	NULL,	2147483647,	'ajwd',	NULL,	NULL,	NULL,	NULL,	'laki-laki',	NULL,	'08128216',	'awdawdawd',	NULL,	NULL)
-ON DUPLICATE KEY UPDATE `id_pasien` = VALUES(`id_pasien`), `nama` = VALUES(`nama`), `username` = VALUES(`username`), `password` = VALUES(`password`), `merayakan` = VALUES(`merayakan`), `nik` = VALUES(`nik`), `pekerjaan` = VALUES(`pekerjaan`), `jabatan` = VALUES(`jabatan`), `asal_instansi` = VALUES(`asal_instansi`), `tempat_lahir` = VALUES(`tempat_lahir`), `tanggal_lahir` = VALUES(`tanggal_lahir`), `jenis_kelamin` = VALUES(`jenis_kelamin`), `email` = VALUES(`email`), `telepon` = VALUES(`telepon`), `alamat` = VALUES(`alamat`), `dari_mana_pasien_mengetahui` = VALUES(`dari_mana_pasien_mengetahui`), `level` = VALUES(`level`);
+(21,	'Farras',	'fadillahzx',	'12345678',	NULL,	2147483647,	'ajwd',	NULL,	NULL,	NULL,	NULL,	'laki-laki',	NULL,	'08128216',	'awdawdawd',	NULL,	NULL);
 
 DROP TABLE IF EXISTS `periksa`;
 CREATE TABLE `periksa` (
@@ -253,8 +247,7 @@ INSERT INTO `periksa` (`id_periksa`, `invoice`, `id_pasien`, `id_dokter`, `tgl_p
 (23,	'722396',	7,	3,	'2023-06-30 00:00:00',	'Coca cola',	'harus dirawat lah',	'di laser',	100000,	'6acd6de1-173b-4e68-804b-63d019709eb3',	0,	2,	1,	'Sudah Bayar'),
 (24,	'323925',	7,	3,	'2023-07-28 00:00:00',	'coba',	'harus dirawat banget',	'di laser',	10000,	'899884db-3e00-4cee-aded-0600dd2acb3b',	0,	2,	1,	'Sudah Bayar'),
 (25,	'703413',	7,	3,	'2023-07-19 00:00:00',	'Coca cola',	'',	'',	0,	'4c8695e4-1e58-41c8-9804-d308f9b648db',	0,	2,	1,	'Sudah Bayar'),
-(26,	'501638',	7,	5,	'2023-07-27 00:00:00',	'Coca cola',	'',	'',	10000,	'0f04d50b-9527-4576-9fc5-3d5bba56c4cb',	0,	3,	1,	'Sudah Bayar')
-ON DUPLICATE KEY UPDATE `id_periksa` = VALUES(`id_periksa`), `invoice` = VALUES(`invoice`), `id_pasien` = VALUES(`id_pasien`), `id_dokter` = VALUES(`id_dokter`), `tgl_periksa` = VALUES(`tgl_periksa`), `anamnesa` = VALUES(`anamnesa`), `note` = VALUES(`note`), `rekomendasi` = VALUES(`rekomendasi`), `diskon` = VALUES(`diskon`), `token` = VALUES(`token`), `jenis_bayar` = VALUES(`jenis_bayar`), `id_pembayaran` = VALUES(`id_pembayaran`), `id_diagnosa` = VALUES(`id_diagnosa`), `status` = VALUES(`status`);
+(26,	'501638',	7,	5,	'2023-07-27 00:00:00',	'Coca cola',	'',	'',	10000,	'0f04d50b-9527-4576-9fc5-3d5bba56c4cb',	0,	3,	1,	'Sudah Bayar');
 
 DROP TABLE IF EXISTS `periksa_obat`;
 CREATE TABLE `periksa_obat` (
@@ -286,8 +279,7 @@ INSERT INTO `periksa_obat` (`id_periksa_obat`, `id_periksa`, `obat`) VALUES
 (21,	21,	1),
 (22,	22,	1),
 (23,	23,	1),
-(25,	24,	1)
-ON DUPLICATE KEY UPDATE `id_periksa_obat` = VALUES(`id_periksa_obat`), `id_periksa` = VALUES(`id_periksa`), `obat` = VALUES(`obat`);
+(25,	24,	1);
 
 DROP TABLE IF EXISTS `periksa_tindakan`;
 CREATE TABLE `periksa_tindakan` (
@@ -325,8 +317,7 @@ INSERT INTO `periksa_tindakan` (`id_periksa_tindakan`, `id_periksa`, `tindakan`)
 (31,	23,	1),
 (32,	24,	1),
 (33,	25,	1),
-(34,	26,	2)
-ON DUPLICATE KEY UPDATE `id_periksa_tindakan` = VALUES(`id_periksa_tindakan`), `id_periksa` = VALUES(`id_periksa`), `tindakan` = VALUES(`tindakan`);
+(34,	26,	2);
 
 DROP TABLE IF EXISTS `rekam_medis`;
 CREATE TABLE `rekam_medis` (
@@ -352,8 +343,7 @@ INSERT INTO `rekam_medis` (`id_rekam_medis`, `id_pasien`, `id_dokter`, `berat_ba
 (1,	4,	3,	60,	80,	20,	'B',	'tidak',	'tidak',	'120/80',	'tidak',	'-',	'-',	'-',	'-'),
 (2,	7,	5,	70,	95,	0,	'',	'',	'',	'',	'',	'',	'',	'',	''),
 (3,	15,	5,	0,	0,	0,	'',	'',	'',	'',	'',	'',	'',	'',	''),
-(4,	18,	2,	0,	0,	0,	'',	'',	'',	'',	'',	'',	'',	'',	'')
-ON DUPLICATE KEY UPDATE `id_rekam_medis` = VALUES(`id_rekam_medis`), `id_pasien` = VALUES(`id_pasien`), `id_dokter` = VALUES(`id_dokter`), `berat_badan` = VALUES(`berat_badan`), `saturasi_oksigen` = VALUES(`saturasi_oksigen`), `suhu_badan` = VALUES(`suhu_badan`), `golongan_darah` = VALUES(`golongan_darah`), `diabetes` = VALUES(`diabetes`), `haemopilia` = VALUES(`haemopilia`), `tekanan_darah` = VALUES(`tekanan_darah`), `sakit_jantung` = VALUES(`sakit_jantung`), `riwayat_penyakit_lain` = VALUES(`riwayat_penyakit_lain`), `alergi_obat` = VALUES(`alergi_obat`), `alergi_makanan` = VALUES(`alergi_makanan`), `keterangan` = VALUES(`keterangan`);
+(4,	18,	2,	0,	0,	0,	'',	'',	'',	'',	'',	'',	'',	'',	'');
 
 DROP TABLE IF EXISTS `tagihan`;
 CREATE TABLE `tagihan` (
@@ -377,8 +367,7 @@ INSERT INTO `tagihan` (`id_tagihan`, `id_pasien`, `id_dokter`, `deskripsi`, `bia
 (2,	4,	2,	'Cek GIgi 500k',	100000,	90000,	0,	690000,	'tunai',	'0000-00-00',	'00:00:00',	'selesai'),
 (3,	9,	2,	'Cek GIgi 500k',	10000,	20000,	0,	530000,	'tunai',	'2022-12-22',	'10:10:21',	'selesai'),
 (4,	9,	2,	'Cek GIgi 500k',	10000,	20000,	0,	530000,	'tunai',	'2022-02-22',	'10:10:21',	'selesai'),
-(5,	9,	2,	'Cek GIgi 500k',	10000,	20000,	0,	530000,	'tunai',	'2022-12-22',	'10:10:21',	'gagal')
-ON DUPLICATE KEY UPDATE `id_tagihan` = VALUES(`id_tagihan`), `id_pasien` = VALUES(`id_pasien`), `id_dokter` = VALUES(`id_dokter`), `deskripsi` = VALUES(`deskripsi`), `biaya_tindakan` = VALUES(`biaya_tindakan`), `biaya_obat` = VALUES(`biaya_obat`), `diskon` = VALUES(`diskon`), `total_biaya` = VALUES(`total_biaya`), `metode_pembayaran` = VALUES(`metode_pembayaran`), `tanggal_update` = VALUES(`tanggal_update`), `jam_update` = VALUES(`jam_update`), `status` = VALUES(`status`);
+(5,	9,	2,	'Cek GIgi 500k',	10000,	20000,	0,	530000,	'tunai',	'2022-12-22',	'10:10:21',	'gagal');
 
 DROP TABLE IF EXISTS `tarif`;
 CREATE TABLE `tarif` (
@@ -392,8 +381,7 @@ CREATE TABLE `tarif` (
 
 INSERT INTO `tarif` (`id_tarif`, `upf`, `nama_tindakan`, `perawatan`, `tarif`) VALUES
 (1,	'Periodontia-0013',	'Penambalan Laser',	'Dokter Gigi',	3000000),
-(2,	'Prosthodontia-0011',	'Elemen Gigi',	'Dokter Gigi',	1000000)
-ON DUPLICATE KEY UPDATE `id_tarif` = VALUES(`id_tarif`), `upf` = VALUES(`upf`), `nama_tindakan` = VALUES(`nama_tindakan`), `perawatan` = VALUES(`perawatan`), `tarif` = VALUES(`tarif`);
+(2,	'Prosthodontia-0011',	'Elemen Gigi',	'Dokter Gigi',	1000000);
 
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
@@ -410,7 +398,6 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `password`, `nama`, `gambar`, `level`, `tanggal_update`, `jam_update`) VALUES
 (1,	'admin',	'admin123',	'Admin Poli Gigi',	'admin.webp',	'admin',	NULL,	NULL),
-(2,	'user',	'user123',	'User Poli Gigi',	'user.webp',	'user',	NULL,	NULL)
-ON DUPLICATE KEY UPDATE `id` = VALUES(`id`), `username` = VALUES(`username`), `password` = VALUES(`password`), `nama` = VALUES(`nama`), `gambar` = VALUES(`gambar`), `level` = VALUES(`level`), `tanggal_update` = VALUES(`tanggal_update`), `jam_update` = VALUES(`jam_update`);
+(2,	'user',	'user123',	'User Poli Gigi',	'user.webp',	'user',	NULL,	NULL);
 
--- 2023-07-17 12:19:47
+-- 2023-12-25 06:40:24
